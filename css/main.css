@@ -24,7 +24,9 @@ html{overflow-x:hidden;overflow:-Scroll;overflow-x:hidden}
 .page_wrap .title a{color:#ffc85e;}
 span.select_01{display:inline-block; color:#fff; font-size:0.28rem; height:0.6rem; line-height:1.2rem; margin-bottom:0.2rem;}
 span.select_02{display:inline-block;height:0.6rem; line-height:0.6rem;}
-.select_02 select{ background:#cbdde6;border-radius:5px;width:2.6rem; height:0.6rem;display:flex; justify-content:center}
+.select_02 select{ background:#cbdde6;border-radius:5px;width:2.6rem; height:0.6rem;display:flex; justify-content:center;padding-left:0.6rem;
+background:url(../images/row_03.png) no-repeat scroll 1.78rem center #fff; 
+  background-size:15%;}
 div.select{ display:flex;align-items:center; justify-content:space-around; }
 /*第三*/
 .page_3{ background:#f1f1f1;width:6.8rem;  position: relative; padding:0rem 0.35rem 0.8rem;}
