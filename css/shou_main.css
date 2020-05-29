@@ -21,7 +21,7 @@ body{position: relative;z-index:1;font-size:15px;color:#4A4A4A; }
 a:hover {color: #0f93b9;}
 
 /*第一屏*/
-/* .part1{background-image:url(../images/phone_img_bg_01.jpg); width:740px; height:1744px; position:relative}
+.part1{background-image:url(../images/phone_img_bg_01.jpg); width:740px; height:1744px; position:relative}
 .hand{ cursor:pointer;transition: all .6s;}
 .logo a{width: 681px;height: 120px; position: absolute;top: 15px;left: 20px; cursor:pointer; display:block; }
 .sprite {width: 214px;height: 207px;position: absolute;top:1423px;left: 262px; 	}
@@ -31,7 +31,7 @@ a:hover {color: #0f93b9;}
 #two{position:absolute; left:373px; top:1078px; cursor:pointer;}
 #three{position:absolute; left:0px; top:1186px; cursor:pointer;}
 #four{position:absolute; left:373px; top:1186px; cursor:pointer;}
-.list_ul li{height:99px;padding-top:20px; margin-bottom:2px;width:360px;} */
+.list_ul li{height:99px;padding-top:20px; margin-bottom:2px;width:360px;}
 /*首页第二屏*/
 /* .part2{background-image:url(../images/phone_img_bg_02.jpg); width:740px; height:1413px; position:relative;}
 .face_book{font-size:22px; color:#fff; padding:3px 18px;background:#4267b2; display:flex; justify-content:center; align-items:center;position: absolute;top: 414px; left:402px;}
