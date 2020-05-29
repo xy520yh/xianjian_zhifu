@@ -20,17 +20,62 @@ a:hover {color: #0f93b9;}
 /*首页*/
 #wrapper{width: 740px; margin:0 auto; position:relative; overflow-x:hidden; }
 /*第一屏*/
-/* .part1{background-image:url(../images/phone_img_bg_01.jpg); width:740px; height:1744px; position:relative} */
-/* .hand{ cursor:pointer;transition: all .6s;}
+.part1{background-image:url(../images/phone_img_bg_01.jpg); width:740px; height:1744px; position:relative}
+.hand{ cursor:pointer;transition: all .6s;}
 .logo a{width: 681px;height: 120px; position: absolute;top: 15px;left: 20px; cursor:pointer; display:block; }
 .sprite {width: 214px;height: 207px;position: absolute;top:1423px;left: 262px; 	}
-.goog_img{position:absolute; top:972px; left:163px;} */
-/* 
+.goog_img{position:absolute; top:972px; left:163px;}
+.goog_img img {overflow-x: hidden;overflow-y: hidden;  position: relative;z-index:1;transition-delay: 0s;transition-duration: 1s;transition-property: all; transition-timing-function: ease;
+	/* Firefox 4 */
+	-moz-transition-delay: 0s;
+    -moz-transition-duration: 1s;  
+    -moz-transition-property: all;
+    -moz-transition-timing-function: ease;
+	/* Safari 和 Chrome */
+	-webkit-transition-delay: 0s;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+	/* Opera */
+	-o-transition-delay: 0s;
+    -o-transition-duration: 1s;
+    -o-transition-property: all;
+    -o-transition-timing-function: ease;
+	border-radius:10px;}
+.goog_img img:hover {transform: scale(1.2, 1.2);	
+	-ms-transform:scale(1.2, 1.2); 	/* IE 9 */
+	-moz-transform:scale(1.2, 1.2); 	/* Firefox */
+	-webkit-transform:scale(1.2, 1.2); /* Safari 和 Chrome */
+	-o-transform:scale(1.2, 1.2); 	/* Opera */}
+
+.app_img{    position: absolute; top: 972px;left: 441px;}
+.app_img img {overflow-x: hidden;overflow-y: hidden;  position: relative;z-index:1;transition-delay: 0s;transition-duration: 1s;transition-property: all; transition-timing-function: ease;
+	/* Firefox 4 */
+	-moz-transition-delay: 0s;
+    -moz-transition-duration: 1s;  
+    -moz-transition-property: all;
+    -moz-transition-timing-function: ease;
+	/* Safari 和 Chrome */
+	-webkit-transition-delay: 0s;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+	/* Opera */
+	-o-transition-delay: 0s;
+    -o-transition-duration: 1s;
+    -o-transition-property: all;
+    -o-transition-timing-function: ease;
+	border-radius:10px;}
+.app_img img:hover {transform: scale(1.2, 1.2);	
+	-ms-transform:scale(1.2, 1.2); 	/* IE 9 */
+	-moz-transform:scale(1.2, 1.2); 	/* Firefox */
+	-webkit-transform:scale(1.2, 1.2); /* Safari 和 Chrome */
+	-o-transform:scale(1.2, 1.2); 	/* Opera */}
 #one{position:absolute; left:0px; top:1078px; cursor:pointer;}
 #two{position:absolute; left:373px; top:1078px; cursor:pointer;}
 #three{position:absolute; left:0px; top:1186px; cursor:pointer;}
 #four{position:absolute; left:373px; top:1186px; cursor:pointer;}
-.list_ul li{height:99px;padding-top:20px; margin-bottom:2px;width:360px;} */
+.list_ul li{height:99px;padding-top:20px; margin-bottom:2px;width:360px;}
 /*首页第二屏*/
 .part2{background-image:url(../images/phone_img_bg_02.jpg); width:740px; height:1413px; position:relative;}
 .face_book{font-size:22px; color:#fff; padding:3px 18px;background:#4267b2; display:flex; justify-content:center; align-items:center;position: absolute;top: 414px; left:402px;}
@@ -102,4 +147,4 @@ td.t1{background:#962626;color:#FFF; font-size:20px; font-weight:bold;}
 #gotop {display: none;position: fixed;right: 1%;bottom:20px;padding: 10px 10px;font-size: 20px;background: #777;color: white;cursor: pointer;	z-index:11111;}
 .footer{width:740px; height:208px;}
 
-/* .top_right {width: 71px;background:url(../images/right_bg.png);height:395px;position: fixed; top: 50%; right:0px;margin-top: -198px; z-index:1111;} */
+.top_right {width: 71px;background:url(../images/right_bg.png);height:395px;position: fixed; top: 50%; right:0px;margin-top: -198px; z-index:1111;}
