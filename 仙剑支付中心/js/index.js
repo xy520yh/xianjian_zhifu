@@ -23,4 +23,23 @@ $(function(){
   });
 
 	
+	$('.type1').click(function(){
+		$(this).addClass('active').siblings('').removeClass('active');
+	
+	})	
+	
+	
+	
+	//点击失败
+  $('body').on("click", '.btn_a', function () {
+    $('.lose').addClass('active');
+	$('.masked').css('display','block');
+  });
+  //这里如果想关闭就对应上那个按钮
+  $('body').on("click", '.lose .fan_index', function () {
+    $('.lose').removeClass('active');
+	$('.masked').css('display','none');
+  });
+
+	
 });

@@ -20,13 +20,13 @@ html{overflow-x:hidden;overflow:-Scroll;overflow-x:hidden}
 .logo img{width:3.94rem; height:0.9rem;}*/
 
 .page_wrap{ width:7.5rem; position:absolute; top:11.7rem; width:4rem; margin-left:-2rem; left:50%; height:3rem;}
-.page_wrap .title{font-size:0.26rem; color:#fff; display:flex; justify-content:center;}
+.page_wrap .title{font-size:0.26rem; color:#fff; display:flex; justify-content:center;margin-bottom:0.2rem;}
 .page_wrap .title a{color:#ffc85e;}
-span.select_01{display:inline-block; color:#fff; font-size:0.28rem; height:0.6rem; line-height:1.2rem; margin-bottom:0.2rem;}
+span.select_01{display:inline-block; color:#fff; font-size:0.28rem; height:0.6rem; line-height:0.8rem; margin-bottom:0.2rem;}
 span.select_02{display:inline-block;height:0.6rem; line-height:0.6rem;}
 .select_02 select{ background:#cbdde6;border-radius:5px;width:2.6rem; height:0.6rem;display:flex; justify-content:center;padding-left:0.6rem;
-background:url(../images/row_03.png) no-repeat scroll 1.78rem center #fff; 
-  background-size:15%;}
+background:url(../images/row_03.png) no-repeat scroll 2rem center #fff; font-size:0.3rem;
+  background-size:12%;}
 div.select{ display:flex;align-items:center; justify-content:space-around; }
 /*第三*/
 .page_3{ background:#f1f1f1;width:6.8rem;  position: relative; padding:0rem 0.35rem 0.8rem;}
@@ -35,6 +35,10 @@ div.select{ display:flex;align-items:center; justify-content:space-around; }
 .payment {display: flex;height:0.74rem; align-items:center;margin-bottom:0.26rem;}
 .payment span.name{display:inline-block;font-size:0.28rem; line-height:0.74rem; height:0.74rem;}
 .payment span.type{display:inline-block;width:2.44rem;margin-right:0.15rem;}
+
+.payment span.type1{display:inline-block;width:2.42rem;margin-right:0.15rem; border:0.02rem solid #a3a2a2; border-radius:3px; font-size:0.4rem; text-align:center;height: 0.72rem; line-height:0.72rem;}
+
+.payment .active{ color:#ff6600;}
 span.type img{width:2.44rem; height: 0.74rem;}
 p.btn{display:flex;align-items:center; justify-content:center;margin-top:0.4rem;margin-bottom:0.1rem;}
 .btn a{color:#fff; font-size:0.34rem; text-align:center;padding:0.15rem 2rem; background:#454545;border-radius:5px;}
