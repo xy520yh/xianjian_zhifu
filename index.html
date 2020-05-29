@@ -17,15 +17,7 @@
 <script type="text/javascript" src="js/jquery.colorbox.js"></script>
 <script type="text/javascript" src="js/swiper.min.js"></script>
 <script type="text/javascript" src="js/lunbo_index.js"></script>
-    <script>
-      $(document).ready(function(){
-         //弹出
-        $(".iframe").colorbox({iframe:true, width:"710px", height:"810px"});
-             //达成任务加吗弹出
-        $(".iframe3").colorbox({iframe:true, transition:"none", width:"460px", height:"660px"});
-        $(".iframe2").colorbox({iframe:true, width:"660px", height:"460px"});
-        });
-      </script>
+    
       <!--浏览器兼容HTML5标签-->
       <!--[if lt IE 9]>
         <script type="text/javascript" src="/js/html5.js"></script>
@@ -47,6 +39,15 @@
         }
       </script>
       <!--移动端版本兼容 end -->
+      <script>
+        $(document).ready(function(){
+           //弹出
+          $(".iframe").colorbox({iframe:true, width:"710px", height:"810px"});
+               //达成任务加吗弹出
+          $(".iframe3").colorbox({iframe:true, transition:"none", width:"460px", height:"660px"});
+          $(".iframe2").colorbox({iframe:true, width:"660px", height:"460px"});
+          });
+        </script>
 </head>
 <body>
 <div id="wrapper">
@@ -259,7 +260,7 @@
      <div id="gotop">TOP</div>  
 </div>
 
-<!-- <script>
+<script>
   var swiper = new Swiper('.part6_container', {
     spaceBetween: 30,
     centeredSlides: true,
@@ -277,7 +278,7 @@
         prevEl: '.swiper-button-prev',
       },
   });
-</script> -->
+</script>
 
 </body>
 </html>

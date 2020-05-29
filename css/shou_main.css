@@ -13,7 +13,7 @@ em{font-weight: bold;font-style: italic;}
 .hidden{display: none;}
 hr{ line-height:1; height:1px; background:none; border-top:1px dashed #9F9F9F;border-bottom:1px dashed #fff;}
 /* [background]  */
-html{min-height: 100%;position:relative;	z-index: 1;	background: #fff;}
+/* html{min-height: 100%;position:relative;	z-index: 1;	background: #fff;} */
 body{position: relative;z-index:1;font-size:15px;color:#4A4A4A; }
 /* basics */
 a:hover {color: #0f93b9;}
