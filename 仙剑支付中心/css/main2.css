@@ -1,5 +1,5 @@
-*{margin:0;padding:0;}
-textarea,select,input{-webkit-appearance: none; -moz-appearance: none; -o-appearance: none;-ms-appearance:none; appearance: none;}
+*{margin:0;padding:0;white-space: nowrap;}
+textarea,select,input{-webkit-appearance: none; -moz-appearance: none; -o-appearance: none;-ms-appearance:none; appearance: none; white-space:nowrap;}
 body{ font-family: Helvetica, Microsoft YaHei, Tohoma, Arial;}
 h1,h2,h3,h4,h5,h6,b{font-weight: normal;}
 a{text-decoration:none;outline:none;}
@@ -13,11 +13,17 @@ html{overflow-x:hidden;overflow:-Scroll;overflow-x:hidden}
 .hand {
     cursor: pointer;
 }
-
+option {
+    font-weight: normal;
+    display: block;
+    white-space:nowrap;
+    min-height: 1.2rem;
+    padding: 0px 0.5rem 0.6rem;
+}
   
   /*清除ie的默认选择框样式清除，隐藏下拉箭头*/
   
-select::-ms-expand { display: none; }
+  select::-ms-expand { display: none; }
 /*第一*/
 .wrap{ margin:0 auto; width:7.5rem; position:relative;}
 .page_1{ background:url(../images/page_01.jpg) no-repeat;width:7.5rem; height:15rem;  background-size: 100% 100%;}
@@ -28,25 +34,19 @@ select::-ms-expand { display: none; }
 .page_wrap .title{font-size:0.26rem; color:#fff;margin-bottom:0.2rem; text-align: center;}
 .page_wrap .title a{color:#ffc85e;}
 span.select_01{display:inline-block; color:#fff; font-size:0.28rem; line-height:0.6rem;height:0.6rem;float:left; margin-right:0.2rem;}
-/*span.select_02{display:inline-block;height:0.6rem; line-height:0.6rem;float:left;}*/
-.select_02 select{ background:#fff;border-radius:5px;font-size:0.25rem;padding:0.15rem 0.4rem; }
-.select_02 select option{
+span.select_02{display:inline-block;height:0.6rem; line-height:0.6rem;float:left;white-space:nowrap;}
+.select_02 select{ background:#cbdde6;border-radius:5px;width:2.6rem; height:0.6rem;padding-left:0.2rem;
+background:url(../images/row_03.png) no-repeat scroll 2rem center #fff; font-size:0.3rem;  white-space:nowrap;
 
-line-height:30px;
-
-height:30px;
-
-margin:5px auto; border:1px solid #f00;
-
-}
-
+  background-size:12%;}
 /* div.select{ display:flex;align-items:center; justify-content:space-around; } */
 .title1{font-size:0.26rem; color:#fff; margin-bottom:0.15rem; float:left;line-height:0.6rem;height:0.6rem;}
 
-span.select_03{display:inline-block;height:0.74rem; line-height:0.34rem;float:left;}
-.select_03 select{ border-radius:3px;background:none; /*width:2.42rem; height:0.74rem;line-height:0.74rem;*/border: 0.02rem solid #a3a2a2;padding:0.15rem 0.7rem; font-size:0.25rem;
-/*background:url(../images/row_03.png) no-repeat scroll 2rem center;
-  background-size:12%*/}
+span.select_03{display:inline-block;height:0.74rem; line-height:0.34rem;float:left;white-space:nowrap;}
+.select_03 select{ background:#cbdde6;border-radius:3px;width:2.42rem; height:0.74rem; line-height:0.74rem;border: 0.02rem solid #a3a2a2;padding-left:0.2rem;
+background:url(../images/row_03.png) no-repeat scroll 2rem center; font-size:0.3rem;  white-space:nowrap;
+	
+  background-size:12%;}
 /*第三*/
 .page_3{ background:#f1f1f1;width:6.8rem;  position: relative; padding:0rem 0.35rem 0.8rem;}
 .recharge{margin-bottom:0.4rem;}
@@ -81,18 +81,3 @@ p.red{color:#a83535; font-size:0.5rem; margin-bottom:0.8rem;}
 
 /* 
 display:flex; align-items:center; justify-content:center;  flex-direction:column;  */
-
-.select_box1,.select_box2 {width:3rem;font-size:0.14rem; height:0.6rem; position:relative; display:inline-block;}
-.btna {cursor:pointer; display:block; line-height:0.6rem; width:2.8rem; height:0.6rem;border-radius:5px;overflow:hidden;background:url(../images/left_ico_03.png) 2.6rem 0.16rem #fff no-repeat;padding-left:0.2rem;  background-size:10%;color:#000;  font-size:0.24rem; border:0.02rem solid #a3a2a2;}
-
-.select_box1 ul,.select_box2 ul{width:3rem; position:absolute; left:0; top:0.65rem;display:none; background:#141b23; z-index:99999;border-radius:5px;}
-.select_box1 ul li,.select_box2 ul  li{height:0.6rem;line-height:0.6rem;width:3rem; text-align:center;cursor:pointer;color:#fff;border-bottom:solid 1px #182739; font-size:0.22rem;}
-
-
-
-
-.select_box3 {width:2.22rem; height:0.7rem; line-height:0.7rem; position:relative; display:inline-block; float:left;}
-.btnb {cursor:pointer; display:block; line-height:0.7rem; width:2.22rem; height:0.7rem;border-radius:5px;overflow:hidden;background:url(../images/left_ico_03.png) 2.1rem 0.24rem  no-repeat;padding-left:0.2rem;  background-size:10%;color:#000;  font-size:0.24rem; border:0.02rem solid #a3a2a2;}
-.select_box3 ul  {width:2.42rem; position:absolute; left:0; top:0.65rem;display:none; background:#141b23; z-index:99999;border-radius:5px;}
-.select_box3 ul  li{height:0.6rem;line-height:0.6rem;width:2.42rem; text-align:center;cursor:pointer;color:#fff;border-bottom:solid 1px #182739; font-size:0.22rem;}
-.select_box1 ul li:hover,.select_box2 ul  li:hover,.select_box3 ul  li:hover{color:#ff6600;}

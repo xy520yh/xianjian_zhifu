@@ -1,5 +1,5 @@
 *{margin:0;padding:0;}
-textarea,select,input{-webkit-appearance: none; -moz-appearance: none; -o-appearance: none;-ms-appearance:none; appearance: none;}
+/*textarea,select,input{-webkit-appearance: none; -moz-appearance: none; -o-appearance: none;-ms-appearance:none; appearance: none;}*/
 body{ font-family: Helvetica, Microsoft YaHei, Tohoma, Arial;}
 h1,h2,h3,h4,h5,h6,b{font-weight: normal;}
 a{text-decoration:none;outline:none;}
@@ -17,7 +17,7 @@ html{overflow-x:hidden;overflow:-Scroll;overflow-x:hidden}
   
   /*清除ie的默认选择框样式清除，隐藏下拉箭头*/
   
-select::-ms-expand { display: none; }
+/*select::-ms-expand { display: none; }*/
 /*第一*/
 .wrap{ margin:0 auto; width:7.5rem; position:relative;}
 .page_1{ background:url(../images/page_01.jpg) no-repeat;width:7.5rem; height:15rem;  background-size: 100% 100%;}
@@ -30,15 +30,7 @@ select::-ms-expand { display: none; }
 span.select_01{display:inline-block; color:#fff; font-size:0.28rem; line-height:0.6rem;height:0.6rem;float:left; margin-right:0.2rem;}
 /*span.select_02{display:inline-block;height:0.6rem; line-height:0.6rem;float:left;}*/
 .select_02 select{ background:#fff;border-radius:5px;font-size:0.25rem;padding:0.15rem 0.4rem; }
-.select_02 select option{
 
-line-height:30px;
-
-height:30px;
-
-margin:5px auto; border:1px solid #f00;
-
-}
 
 /* div.select{ display:flex;align-items:center; justify-content:space-around; } */
 .title1{font-size:0.26rem; color:#fff; margin-bottom:0.15rem; float:left;line-height:0.6rem;height:0.6rem;}
